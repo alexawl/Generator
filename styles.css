@@ -1,0 +1,43 @@
+body{
+		background:#33FF77;
+	}
+	.main{
+		background:rgba(255,255,255,0.9);
+		padding:10px;
+		width:40%;
+		left:30%;
+		position:relative;
+		font-size:120%;
+	}
+
+	#excuse{
+		width:98%; background:black;color:#50C878;
+		font-size:inherit;
+
+	}
+	textarea{
+		font-size:inherit;
+	}
+
+	#generate{
+		width:97%;
+	}
+	.button {
+		padding: 15px 25px;
+		font-size: 24px;
+		text-align: center;
+		cursor: pointer;
+		outline: none;
+		color: #fff;
+		background-color: #4CAF50;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+				}
+	.button:hover{background-color: #3e8e41}
+
+	button:active{
+		background-color: #3e8e41;
+		box-shadow: 0 5px #666;
+		transform: translateY(4px);
+	}
